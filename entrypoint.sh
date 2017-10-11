@@ -1,5 +1,5 @@
 cd /gsnova
-if [ "$SERVER_JSON" != none ]
+if [ "$SERVER_JSON" != none ]; then
   echo -e "$SERVER_JSON" > server.json
 fi
 
